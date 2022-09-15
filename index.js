@@ -30,15 +30,13 @@ let seer;
         card.style.display = 'block';
         invoker.textContent =  "CHOOSE RATE" ;
         invoker.style.backgroundColor = 'red';
-        clickSubmit.textContent = "Oops!"
-        clickSubmit.style.color = 'red';
-        clickSubmit.style.backgroundColor = 'white';
-        clickSubmit.style.padding = '5px';
-        clickSubmit.style.borderRadius = '50%';
-        console.log(clickSubmit);
+
     }
+   
 });
 invokerTwo.addEventListener('click' , ()=>{
     cardTwo.style.display = 'none';
     card.style.display = 'block';
+   
 })
+ 
